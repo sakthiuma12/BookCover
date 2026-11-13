@@ -17,7 +17,8 @@ To design a book back-cover page using HTML and CSS and serve it locally with Dj
 1. Create a Django project named `bookcover_project`.
 2. Create the `cover_page` application and add it to `INSTALLED_APPS`.
 3. Add a Django view and URL route for the home page.
-4. Create the app's template and static folders.
+4. Create `templates/cover_page/` for the HTML template and
+   `static/cover_page/` for the stylesheet and image.
 5. Write the book-cover content in HTML and its layout and colors in CSS.
 6. Add the locally stored SVG illustration to the cover.
 7. Start Django's development server and open the page on localhost.
