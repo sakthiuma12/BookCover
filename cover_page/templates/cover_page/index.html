@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The back cover for The Quiet Between Stars, a story about finding your way home.">
+    <title>The Quiet Between Stars | Book Cover</title>
+    <link rel="stylesheet" href="{% static 'cover_page/css/style.css' %}">
+</head>
+<body>
+    <main class="page">
+        <article class="book-cover" aria-labelledby="book-title">
+            <header class="cover-header">
+                <p class="eyebrow">A NOVEL</p>
+                <h1 id="book-title">The Quiet<br>Between Stars</h1>
+                <p class="tagline">Somewhere, the sky remembers us.</p>
+            </header>
+
+            <figure class="cover-art">
+                <img
+                    src="{% static 'cover_page/images/night-sky.svg' %}"
+                    alt="A crescent moon above a quiet, forested mountain valley"
+                >
+            </figure>
+
+            <section class="book-copy" aria-label="Book description">
+                <p class="drop-cap">
+                    When Mira returns to the island where she grew up, she finds
+                    the old observatory locked, the lighthouse dark, and a letter
+                    addressed to her in her mother's handwriting.
+                </p>
+                <p>
+                    Its pages lead her across wind-worn cliffs and star-filled
+                    nights, toward a secret her family has kept for generations.
+                    But the closer Mira gets to the truth, the more she must
+                    decide what home means—and what she is willing to leave behind.
+                </p>
+            </section>
+
+            <blockquote class="review">
+                “A luminous story about memory, belonging, and the courage to begin again.”
+                <cite>— The Reading Room</cite>
+            </blockquote>
+
+            <footer class="cover-footer">
+                <div class="author">
+                    <p class="eyebrow">BY</p>
+                    <p class="author-name">ELENA MARLOWE</p>
+                    <p class="author-note">
+                        Elena writes stories about faraway places and the people
+                        who find their way back.
+                    </p>
+                </div>
+                <div class="publisher">
+                    <span class="publisher-mark" aria-hidden="true">✳</span>
+                    <span>WILLOW &amp; INK</span>
+                </div>
+                <div class="barcode" aria-label="Decorative book barcode">
+                    <span class="barcode-lines" aria-hidden="true"></span>
+                    <span class="barcode-number">9 781234 567890</span>
+                </div>
+            </footer>
+        </article>
+        <p class="page-caption">BOOK BACK COVER · DESIGN STUDY 05</p>
+    </main>
+</body>
+</html>

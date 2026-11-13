@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 620" role="img" aria-labelledby="title description">
+  <title id="title">Moonlit island valley</title>
+  <desc id="description">A crescent moon and stars over layered evergreen mountains and a still lake.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#172a36"/>
+      <stop offset="1" stop-color="#455344"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#344b4a"/>
+      <stop offset="1" stop-color="#172a30"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="540" height="620"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="540" height="620" fill="url(#sky)"/>
+    <circle cx="384" cy="142" r="63" fill="#e2d3aa"/>
+    <circle cx="411" cy="122" r="61" fill="#1e3036"/>
+    <g fill="#f3e8c8">
+      <circle cx="101" cy="87" r="2.5"/>
+      <circle cx="207" cy="126" r="2"/>
+      <circle cx="298" cy="72" r="2.5"/>
+      <circle cx="474" cy="218" r="2"/>
+      <circle cx="165" cy="204" r="1.8"/>
+      <circle cx="443" cy="56" r="1.8"/>
+      <path d="M92 166h12m-6-6v12" stroke="#f3e8c8" stroke-width="1.4"/>
+      <path d="M274 188h10m-5-5v10" stroke="#f3e8c8" stroke-width="1.2"/>
+    </g>
+    <path d="M0 338 114 230l72 79 101-128 113 128 67-73 73 91v293H0Z" fill="#344648"/>
+    <path d="m52 288 62-58 45 50-28-13-18 17-17-12-19 20zM238 224l49-43 65 73-43-24-20 17-22-21-19 18zM399 277l67-73 48 59-33-19-20 21-19-12-18 22z" fill="#d0c8aa" opacity=".72"/>
+    <path d="M0 376 128 290l83 85 105-98 92 82 73-62 59 42v281H0Z" fill="#243b3c"/>
+    <path d="M0 407q123-48 270-3t270 2v214H0Z" fill="url(#water)"/>
+    <g fill="#192d30">
+      <path d="m32 445 25-74 25 74h-15v25H47v-25z"/>
+      <path d="m85 454 21-64 22 64h-13v21H98v-21z"/>
+      <path d="m413 437 29-88 30 88h-18v30h-23v-30z"/>
+      <path d="m468 455 22-67 22 67h-13v23h-18v-23z"/>
+    </g>
+    <path d="M0 485q96-20 180 0t180 0 180 0" fill="none" stroke="#a9b29a" stroke-opacity=".33" stroke-width="2"/>
+    <path d="M0 522q80-15 160 0t160 0 220 0" fill="none" stroke="#a9b29a" stroke-opacity=".2" stroke-width="2"/>
+    <path d="M0 572q108-12 216 0t216 0 108 0" fill="none" stroke="#a9b29a" stroke-opacity=".18" stroke-width="2"/>
+    <rect x="14" y="14" width="512" height="592" fill="none" stroke="#d7bc83" stroke-opacity=".4"/>
+  </g>
+</svg>
